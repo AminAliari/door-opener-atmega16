@@ -1,4 +1,4 @@
-# door-opener-atmega16
+# door opener for atmega16 (MAL Course Amirkabir University of Technology)
 This program works on atmega16 written with assmebly language & C.
 
 ## Admin can:
