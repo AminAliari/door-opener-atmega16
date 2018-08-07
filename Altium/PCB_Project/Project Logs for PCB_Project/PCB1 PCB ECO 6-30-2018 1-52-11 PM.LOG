@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=D1 Old Footprint=RB5-10.5 New Footprint=LED-0
+Added Member To Class: ClassName=Sheet1 Member=Component D1 Diode 1N4007
+Added Member To Class: ClassName=Sheet1 Member=Component U1 MC54HC04AJ

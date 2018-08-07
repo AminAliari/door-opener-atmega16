@@ -1,0 +1,55 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ADMIN_PASS                                                                        0x02CC       4
+ADMIN_ID                                                                          0x02D0       4
+GUEST_ID                                                                          0x02D4       4
+GUEST_PASS                                                                        0x02D8       4
+currentUser                                                                       0x02DC       8
+users                                                                             0x02E4      80
+_base_y                                                                           0x0334       4
+_lcd_maxx                                                                         0x0338       1
+_seed                                                                             0x0339       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+eaccess                                                                           0x0000       2
+eusers                                                                            0x0002      80
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+state                                                                             R4,R5        2
+cursor                                                                            R6,R7        2
+access                                                                            R8,R9        2
+freeUserIndex                                                                     R10,R11      2
+_lcd_x                                                                            R13          1
+_lcd_y                                                                            R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+isValid                                                                           0x00144     27
+move                                                                              0x0015F     23
+equals                                                                            0x00176     33
+loadData                                                                          0x00197     37
+writeData                                                                         0x001BC     20
+put                                                                               0x001D0     20
+clear                                                                             0x001E4     17
+addUser                                                                           0x001F5     39
+delUser                                                                           0x0021C     74
+getKey                                                                            0x00266     65
+authenticate                                                                      0x002A7     73
+ext_int0_isr                                                                      0x002F0    246
+main                                                                              0x003E6    307
+_lcd_write_nibble_G100                                                            0x00519     20
+_lcd_write_data                                                                   0x0052D     12
+lcd_gotoxy                                                                        0x00539     13
+lcd_clear                                                                         0x00546     12
+lcd_putchar                                                                       0x00552     23
+lcd_puts                                                                          0x00569     17
+lcd_init                                                                          0x0057A     46
+eeprom_read_block                                                                 0x005A8     25
+eeprom_write_block                                                                0x005C1     28
+memcpy                                                                            0x005DD     18
