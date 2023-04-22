@@ -12,3 +12,6 @@ This program works on atmega16 written with assmebly language & C.
   
   
   > There is also a Proteus Simulation if you dont have the microchip.
+
+## Authors:
+- Amin Aliari and Arya Banaeizadeh.
