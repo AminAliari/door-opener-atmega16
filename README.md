@@ -1,4 +1,4 @@
-# door opener for atmega16 (MAL Course Amirkabir University of Technology)
+# Door Opener for atmega16 - Microprocessor & Assembly Language course at Amirkabir University of Technology (Polytechnic)
 This program works on atmega16 written with assmebly language & C.
 
 ## Admin can:
